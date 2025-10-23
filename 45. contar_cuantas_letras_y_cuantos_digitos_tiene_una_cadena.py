@@ -1,0 +1,5 @@
+texto = input("Ingrese una cadena: ")
+letras = sum(c.isalpha() for c in texto)
+digitos = sum(c.isdigit() for c in texto)
+print("Letras:", letras)
+print("Dígitos:", digitos)
